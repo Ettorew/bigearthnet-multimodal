@@ -1,0 +1,68 @@
+======================================================================
+RELATÓRIO DO SPLIT ESPACIAL
+======================================================================
+
+Seed: 42
+Iterações: 5000
+Total de patches: 30,000
+Total de tiles: 115
+
+DISTRIBUIÇÃO FINAL
+----------------------------------------------------------------------
+            patches  tiles  proporcao
+split                                
+train         20996     61   0.699867
+validation     4500     28   0.150000
+test           4504     26   0.150133
+
+TILES POR SPLIT
+----------------------------------------------------------------------
+new_split
+train         61
+validation    28
+test          26
+
+COUNTRY (%)
+----------------------------------------------------------------------
+split        train  validation   test
+country                              
+Austria       7.58       16.78  12.94
+Belgium       1.25        6.58   4.11
+Finland      32.07       29.82  34.86
+Ireland      10.33        4.98   9.92
+Kosovo        0.53        0.00   0.00
+Lithuania    10.29        4.89  13.99
+Luxembourg    0.43        0.00   2.02
+Portugal     26.53        0.00   0.00
+Serbia       10.99       36.96  16.10
+Switzerland   0.00        0.00   6.06
+
+SEASON (%)
+----------------------------------------------------------------------
+split   train  validation   test
+season                          
+Fall    29.80       29.20  26.64
+Spring  34.73       31.42  40.01
+Summer  19.47       19.96  24.96
+Winter  16.00       19.42   8.39
+
+CLIMATE ZONE (%)
+----------------------------------------------------------------------
+split                                  train  validation   test
+climate_zone                                                   
+Arid, steppe, cold                      0.02        0.00   0.02
+Cold, dry summer, warm summer           0.10        0.00   0.67
+Cold, no dry season, cold summer       20.43       15.76   8.15
+Cold, no dry season, hot summer         0.10        0.20   0.33
+Cold, no dry season, warm summer       31.30       41.78  54.66
+Temperate, dry summer, hot summer      23.16        0.00   0.00
+Temperate, dry summer, warm summer      3.37        0.00   0.00
+Temperate, no dry season, hot summer    8.30       25.60  11.08
+Temperate, no dry season, warm summer  13.23       16.67  25.09
+
+VERIFICAÇÕES
+----------------------------------------------------------------------
+✓ 30.000 patches preservados
+✓ patch_id único
+✓ nenhum tile compartilhado entre splits
+✓ split sem valores nulos

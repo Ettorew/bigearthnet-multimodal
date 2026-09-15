@@ -1,4 +1,7 @@
-data/
+/data/BigEarthNet-S2
+/data/BigEarthNet-S2-10bands
+script.py
+BigEarthNet.txt.parquet
 *.tif
 *.tiff
-*.zst
+data/BigEarthNet-S2-10bands/relatorio_bandas.csv
