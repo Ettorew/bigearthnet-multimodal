@@ -1,0 +1,161 @@
+======================================================================
+AUDITORIA DO BIGEARTHNET — selected_30k
+======================================================================
+
+[1] CSV carregado
+Linhas: 30,000
+Colunas: 9
+
+======================================================================
+2. ESTRUTURA DO CSV
+======================================================================
+
+Colunas:
+ 1. patch_id
+ 2. input
+ 3. output
+ 4. split
+ 5. latitude
+ 6. longitude
+ 7. country
+ 8. season
+ 9. climate_zone
+
+Tipos:
+patch_id         object
+input            object
+output           object
+split            object
+latitude        float64
+longitude       float64
+country          object
+season           object
+climate_zone     object
+dtype: object
+
+Primeiras linhas:
+                                            patch_id  \
+0  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_0...   
+1  S2B_MSIL2A_20171015T104009_N9999_R008_T31UGR_1...   
+2  S2A_MSIL2A_20171002T094031_N9999_R036_T34TCR_7...   
+3  S2A_MSIL2A_20171101T094131_N9999_R036_T35VNK_6...   
+4  S2B_MSIL2A_20180515T112109_N9999_R037_T29SNC_0...   
+
+                                               input  \
+0  Explain the content of the image, highlighting...   
+1  Explain what can be seen in this satellite ima...   
+2  Explain the observed land cover and spatial pa...   
+3  Give a comprehensive overview of the image, sp...   
+4  Explain the content of the image, highlighting...   
+
+                                              output       split   latitude  \
+0  This satellite image, captured during the wint...       train  52.510569   
+1  This satellite image, captured during the fall...  validation  49.847794   
+2  This satellite image, captured during the fall...  validation  45.218790   
+3  This satellite image, captured during the fall...        test  62.546173   
+4  This satellite image, captured during the spri...       train  38.216334   
+
+   longitude     country  season                           climate_zone  
+0  -7.393858     Ireland  Winter  Temperate, no dry season, warm summer  
+1   6.073700  Luxembourg    Fall  Temperate, no dry season, warm summer  
+2  19.606631      Serbia    Fall   Temperate, no dry season, hot summer  
+3  28.411121     Finland    Fall       Cold, no dry season, cold summer  
+4  -8.938542    Portugal  Spring      Temperate, dry summer, hot summer  
+
+======================================================================
+3. TAMANHO DO DATASET
+======================================================================
+Patches encontrados : 30,000
+Patches esperados   : 30,000
+✓ Quantidade correta de patches.
+
+======================================================================
+4. VALORES NULOS
+======================================================================
+✓ Nenhum valor nulo encontrado.
+
+======================================================================
+5. DUPLICATAS
+======================================================================
+Linhas completamente duplicadas: 0
+
+======================================================================
+6. POSSÍVEIS COLUNAS IMPORTANTES
+======================================================================
+[ID]       patch_id
+
+======================================================================
+7. CARDINALIDADE DAS COLUNAS
+======================================================================
+              n_unique  n_null  unique_ratio
+split                3       0      0.000100
+season               4       0      0.000133
+climate_zone         9       0      0.000300
+country             10       0      0.000333
+input               32       0      0.001067
+output           24543       0      0.818100
+latitude         28190       0      0.939667
+longitude        28285       0      0.942833
+patch_id         30000       0      1.000000
+
+======================================================================
+8. IDENTIFICAÇÃO DOS PATCHES
+======================================================================
+Possíveis colunas de patch:
+ - patch_id
+['S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67', 'S2B_MSIL2A_20171015T104009_N9999_R008_T31UGR_17_61', 'S2A_MSIL2A_20171002T094031_N9999_R036_T34TCR_75_76', 'S2A_MSIL2A_20171101T094131_N9999_R036_T35VNK_60_53', 'S2B_MSIL2A_20180515T112109_N9999_R037_T29SNC_04_58', 'S2A_MSIL2A_20180419T101031_N9999_R022_T34VDN_87_07', 'S2A_MSIL2A_20180508T104031_N9999_R008_T31UGR_25_00', 'S2B_MSIL2A_20180502T093039_N9999_R136_T34TEP_51_81', 'S2A_MSIL2A_20171121T112351_N9999_R037_T29SND_38_09', 'S2B_MSIL2A_20170825T093029_N9999_R136_T34TEQ_00_74']
+
+======================================================================
+9. DUPLICATAS DE PATCH
+======================================================================
+Coluna utilizada: patch_id
+Patches duplicados: 0
+
+======================================================================
+10. TILES
+======================================================================
+⚠ Nenhuma coluna de tile encontrada.
+
+======================================================================
+11. DESCRIÇÕES TEXTUAIS
+======================================================================
+⚠ Nenhuma coluna textual identificada.
+
+======================================================================
+12. ESTRUTURA DAS IMAGENS
+======================================================================
+Diretórios encontrados em BigEarthNet-S2: 115
+
+Contando diretórios de patches...
+Diretórios de patches encontrados: 30,000
+
+======================================================================
+13. VERIFICAÇÃO DAS BANDAS
+======================================================================
+
+Número de bandas por patch:
+12 bandas → 30,000 patches
+
+Verificando patches incompletos...
+Patches com bandas ausentes: 0
+
+======================================================================
+AUDITORIA CONCLUÍDA
+======================================================================
+
+CSV:
+    30,000 linhas
+
+Imagens:
+    115 tiles
+    30,000 patches
+
+Bandas esperadas:
+    12
+
+Patches incompletos:
+    0
+
+Linhas duplicadas:
+    0
+

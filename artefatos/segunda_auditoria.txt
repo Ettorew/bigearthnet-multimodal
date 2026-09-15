@@ -1,0 +1,331 @@
+======================================================================
+AUDITORIA DOS TIFFs
+======================================================================
+
+Patches no CSV: 30,000
+IMAGE_ROOT: /home/ettore/Documentos/PUC/Redes Neurais Proj 5/data/BigEarthNet-S2
+IMAGE_ROOT existe: True
+
+======================================================================
+1. EXISTÊNCIA DOS PATCHES
+======================================================================
+Patches encontrados: 30,000
+Patches ausentes:   0
+
+======================================================================
+2. BANDAS
+======================================================================
+B01: 30,000 encontrados | 0 ausentes
+B02: 30,000 encontrados | 0 ausentes
+B03: 30,000 encontrados | 0 ausentes
+B04: 30,000 encontrados | 0 ausentes
+B05: 30,000 encontrados | 0 ausentes
+B06: 30,000 encontrados | 0 ausentes
+B07: 30,000 encontrados | 0 ausentes
+B08: 30,000 encontrados | 0 ausentes
+B09: 30,000 encontrados | 0 ausentes
+B11: 30,000 encontrados | 0 ausentes
+B12: 30,000 encontrados | 0 ausentes
+B8A: 30,000 encontrados | 0 ausentes
+
+======================================================================
+3. SHAPE DAS BANDAS
+======================================================================
+
+B01:
+shape
+(20, 20)    30000
+Name: count, dtype: int64
+
+B02:
+shape
+(120, 120)    30000
+Name: count, dtype: int64
+
+B03:
+shape
+(120, 120)    30000
+Name: count, dtype: int64
+
+B04:
+shape
+(120, 120)    30000
+Name: count, dtype: int64
+
+B05:
+shape
+(60, 60)    30000
+Name: count, dtype: int64
+
+B06:
+shape
+(60, 60)    30000
+Name: count, dtype: int64
+
+B07:
+shape
+(60, 60)    30000
+Name: count, dtype: int64
+
+B08:
+shape
+(120, 120)    30000
+Name: count, dtype: int64
+
+B09:
+shape
+(20, 20)    30000
+Name: count, dtype: int64
+
+B11:
+shape
+(60, 60)    30000
+Name: count, dtype: int64
+
+B12:
+shape
+(60, 60)    30000
+Name: count, dtype: int64
+
+B8A:
+shape
+(60, 60)    30000
+Name: count, dtype: int64
+
+======================================================================
+4. RESOLUÇÃO ESPACIAL
+======================================================================
+
+B01:
+resolution_x  resolution_y
+60.0          60.0            30000
+Name: count, dtype: int64
+
+B02:
+resolution_x  resolution_y
+10.0          10.0            30000
+Name: count, dtype: int64
+
+B03:
+resolution_x  resolution_y
+10.0          10.0            30000
+Name: count, dtype: int64
+
+B04:
+resolution_x  resolution_y
+10.0          10.0            30000
+Name: count, dtype: int64
+
+B05:
+resolution_x  resolution_y
+20.0          20.0            30000
+Name: count, dtype: int64
+
+B06:
+resolution_x  resolution_y
+20.0          20.0            30000
+Name: count, dtype: int64
+
+B07:
+resolution_x  resolution_y
+20.0          20.0            30000
+Name: count, dtype: int64
+
+B08:
+resolution_x  resolution_y
+10.0          10.0            30000
+Name: count, dtype: int64
+
+B09:
+resolution_x  resolution_y
+60.0          60.0            30000
+Name: count, dtype: int64
+
+B11:
+resolution_x  resolution_y
+20.0          20.0            30000
+Name: count, dtype: int64
+
+B12:
+resolution_x  resolution_y
+20.0          20.0            30000
+Name: count, dtype: int64
+
+B8A:
+resolution_x  resolution_y
+20.0          20.0            30000
+Name: count, dtype: int64
+
+======================================================================
+5. DTYPE
+======================================================================
+
+B01:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B02:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B03:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B04:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B05:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B06:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B07:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B08:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B09:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B11:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B12:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+B8A:
+dtype
+uint16    30000
+Name: count, dtype: int64
+
+======================================================================
+6. NODATA
+======================================================================
+B01: 30,000/30,000 arquivos com NoData
+B02: 30,000/30,000 arquivos com NoData
+B03: 30,000/30,000 arquivos com NoData
+B04: 30,000/30,000 arquivos com NoData
+B05: 30,000/30,000 arquivos com NoData
+B06: 30,000/30,000 arquivos com NoData
+B07: 30,000/30,000 arquivos com NoData
+B08: 30,000/30,000 arquivos com NoData
+B09: 30,000/30,000 arquivos com NoData
+B11: 30,000/30,000 arquivos com NoData
+B12: 30,000/30,000 arquivos com NoData
+B8A: 30,000/30,000 arquivos com NoData
+
+======================================================================
+7. ESTATÍSTICAS DOS PIXELS
+======================================================================
+      min                               max                               \
+      min     max     mean       std    min      max     mean        std   
+band                                                                       
+B01   1.0  1406.0   171.48  213.5865  104.0   9485.0  1072.17  1765.0978   
+B02   1.0   731.0   127.73  131.0787  209.0  13624.0  2209.08  2430.1673   
+B03   1.0   722.0   177.26  145.9771  199.0  13768.0  2523.40  2603.5940   
+B04   1.0   785.0   116.74  119.2803  113.0  14832.0  2657.88  2599.6321   
+B05   1.0  1252.0   306.53  255.0988   86.0  15129.0  2625.69  2396.1725   
+B06   1.0  1715.0   618.95  524.4747   58.0  14930.0  3793.33  2341.3030   
+B07   1.0  2281.0   721.46  615.6497   58.0  14086.0  4347.71  2429.5228   
+B08   1.0  1996.0   608.65  542.5186   49.0  15280.0  4867.79  2708.5854   
+B09   1.0  3280.0  1121.47  829.7797    1.0   9845.0  3956.22  2123.1256   
+B11   1.0  2538.0   535.07  514.8129   25.0   6287.0  3033.71  1562.1037   
+B12   1.0  1432.0   270.04  266.8594   37.0   5321.0  2448.93  1383.0264   
+B8A   1.0  2347.0   798.52  693.1202   28.0  13784.0  4507.31  2411.3060   
+
+         mean                                       std                       \
+          min        max       mean        std      min        max      mean   
+band                                                                           
+B01    9.1500  3682.3674   391.1487   564.6677   2.9597  1979.3674  168.8459   
+B02    9.1494  3557.4119   453.4368   507.7076  12.9357  2320.6741  241.0742   
+B03   28.6405  3111.1855   617.3860   466.8537  10.5239  2144.1084  272.6663   
+B04   10.2997  3093.7183   569.9184   530.9814   7.5640  2270.2942  335.0427   
+B05   12.1278  3336.2625   921.7066   595.3769   6.3928  2269.1396  353.0616   
+B06   13.0717  3749.1404  1777.8753   964.2729   6.8454  2085.9910  520.9768   
+B07    5.6839  4537.0161  2065.1248  1137.0599   7.0743  1982.6421  605.9152   
+B08    1.2571  4726.7139  2207.0466  1200.1841   2.1161  2177.6675  680.0160   
+B09    1.0000  4943.2002  2251.8929  1233.7105   0.0000  1719.0919  543.0977   
+B11    1.5642  4257.6685  1449.3294   948.4512   2.6110  1027.8777  436.3846   
+B12    5.1708  2952.0986   903.5810   663.4849   5.1215  1139.6489  366.3524   
+B8A    1.1400  4903.8110  2247.4095  1224.0591   1.2445  1979.9425  633.0367   
+
+                
+           std  
+band            
+B01   340.0941  
+B02   401.6106  
+B03   375.8261  
+B04   400.5763  
+B05   396.7218  
+B06   411.7424  
+B07   432.3471  
+B08   474.3085  
+B09   388.0769  
+B11   253.9418  
+B12   239.5974  
+B8A   438.8758  
+
+======================================================================
+8. ERROS DE LEITURA
+======================================================================
+Erros: 0
+
+======================================================================
+9. EXEMPLO DE ESTRUTURA
+======================================================================
+
+Tile:
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU
+
+Patch:
+  data/BigEarthNet-S2/S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU/S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67
+
+Arquivos:
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B01.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B02.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B03.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B04.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B05.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B06.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B07.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B08.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B09.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B11.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B12.tif
+  S2A_MSIL2A_20180225T114351_N9999_R123_T29UPU_07_67_B8A.tif
+
+======================================================================
+RESUMO FINAL
+======================================================================
+
+Patches no CSV:          30,000
+Patches encontrados:     30,000
+Patches ausentes:        0
+Arquivos TIFF analisados:360,000
+Erros de leitura:        0
+
+======================================================================
+AUDITORIA CONCLUÍDA
+======================================================================
