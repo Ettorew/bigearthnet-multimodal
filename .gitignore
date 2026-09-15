@@ -5,3 +5,4 @@ BigEarthNet.txt.parquet
 *.tif
 *.tiff
 data/BigEarthNet-S2-10bands/relatorio_bandas.csv
+*.zip
