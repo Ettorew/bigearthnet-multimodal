@@ -1,0 +1,7 @@
+modalidade,embedding_1,embedding_2,dimensao_1,dimensao_2,n_amostras,n_pares,spearman_rho,p_value
+Imagem,Imagem Tradicional,Imagem DL,128,128,3000,4498500,0.8977408076424405,0.0
+Imagem,Imagem Tradicional,Imagem Sem PCA,128,128,3000,4498500,0.6437056898032333,0.0
+Imagem,Imagem DL,Imagem Sem PCA,128,128,3000,4498500,0.765619801557548,0.0
+Texto,Texto Tradicional,Texto DL,128,128,3000,4498500,0.5666009340602959,0.0
+Texto,Texto Tradicional,Texto Sem PCA,128,128,3000,4498500,0.6047907002330278,0.0
+Texto,Texto DL,Texto Sem PCA,128,128,3000,4498500,0.7521531062110531,0.0

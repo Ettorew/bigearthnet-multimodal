@@ -6,3 +6,5 @@ BigEarthNet.txt.parquet
 *.tiff
 data/BigEarthNet-S2-10bands/relatorio_bandas.csv
 *.zip
+Embeddings/DL/Imagem_Sem_PCA
+Embeddings/DL/Texto_Sem_PCA
